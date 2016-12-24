@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!-- 样式单独写 -->
+		<style type="text/css">
+			table{
+				width: 300px;
+				height: 300px;
+				/*边框合并*/
+				border-collapse: collapse;  
+				background-color: pink;				
+			}
+			td{
+				text-align: center;
+				/*border: 1px solid black;*/
+			}
+		</style>
+	</head>
+	<body>		
+		<!-- HTML中书写表格结构，不带一点样式 -->
+		<table border="1">
+			<tr>
+				<!-- 合并单元格 
+				<td rowspan="2">123</td>-->
+				<td>123</td>
+				<td>123</td>
+				<td>132</td>
+			</tr>
+			<tr>
+				<!--<td colspan="2">123</td>
+				<td>123</td>-->
+				<td>123</td>
+				<td>123</td>
+				<td>123</td>
+			</tr>
+			<tr>
+				<td>123</td>
+				<td>123</td>
+				<td>123</td>
+			</tr>
+		</table>
+	</body>
+</html>

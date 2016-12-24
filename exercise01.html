@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*初始化样式*/
+			html{font-size:16px;}
+			body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img,figure{margin:0;padding:0} 
+			body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+			a{color:#2d374b;text-decoration:none} 
+			a:hover{color:#002654;text-decoration:none;} 
+			table{border-collapse:collapse;border-spacing:0} 
+			p{word-wrap:break-word}
+			
+			/* 公用样式 */
+			.left{float: left;}
+			.right{float: right;}
+			
+			/* 自定义样式 */		
+			.big-box{
+				width: 500px;
+				height: 180px;
+				margin: 10% auto;			
+			}
+			
+			/*left style start*/
+			.left-box{
+				width: 240px;
+				height: 100%;
+				background: url(img/img/bg.gif) right no-repeat;
+			}
+			.left-top{
+				height: 94px;
+				margin-top: 16px;
+			}
+			.left-img-box{
+				float: left;
+				width: 116px;
+				height: 86px;
+				padding: 3px;
+				border: 1px solid #c3cfd9;
+			}
+			.left-img-bg{
+				float: left;
+				width: 10px;
+				height: 94px;
+				background: url(img/img/picBg.gif) left top no-repeat;
+			}
+			.left-img-text span{
+				display: block;
+				color: #6e90a6;
+				margin-bottom: 8px;
+				font-size: 12px;
+			}
+			.left-bottom{
+				color: #6e90a6;
+				font-size: 12px;
+				margin-top: 14px;				
+			}
+			.left-bottom ul li{
+				list-style:none;
+				margin-bottom: 8px;				
+			}
+			.left-bottom ul li:before{
+				content: url(img/img/liBg.gif);		
+				position: relative;
+				bottom: 2.5px;
+				margin-right: 6.5px;	
+			}
+			/*left style end*/
+			
+			/*right style start*/
+			.right-box{
+				margin:16px 0 0 12px;
+			}
+			figure{
+				margin-right: 10px;
+			}			
+			.img-box{
+				width: 95px;
+				padding: 3px;
+				border: 1px solid #c3cfd9;
+			}
+			.img-text{
+				margin-top: 8px;
+				font-size: 12px;
+				text-align: center;
+			}
+			/*right style end*/			
+		</style>
+	</head>
+	<body>
+		<div class="big-box">
+			<div class="left-box left">
+				<div class="left-top">
+					<div class="left-img-box">
+						<img src="img/img/pic.gif"/>
+					</div>
+					<div class="left-img-bg"></div>
+					<div class="left-img-text">
+						<span>潜伏</span>
+						<span>导演：姜伟</span>
+						<span>主演：姚晨 </span>
+						<span>孙红雷 </span>
+					</div>					
+				</div>
+				<div class="left-bottom">
+					<ul>
+						<li>海清张嘉译演绎房奴生活《蜗居》</li>
+						<li>琼瑶经典言情剧锦集 梦露电影知多少</li>
+					</ul>					
+				</div>
+			</div>
+			<div class="right-box left">
+				<figure class="left">
+					<div class="img-box">
+						<img src="img/img/pic2.gif"/>
+					</div>
+					<figcaption class="img-text">将爱情进行到底</figcaption>
+				</figure>
+				<figure class="left">
+					<div class="img-box">
+						<img src="img/img/pic2.gif"/>
+					</div>
+					<figcaption class="img-text">将爱情进行到底</figcaption>
+				</figure>
+			</div>
+		</div>
+	</body>
+</html>
